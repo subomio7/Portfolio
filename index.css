@@ -231,7 +231,7 @@ body{
 }
 
 .education-subtitle{
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: bold;
@@ -242,6 +242,7 @@ body{
 
 .project-container{
     justify-items: center;
+    padding: 15px;
 }
 .project{
     border: 1px solid #6C37A0;
@@ -250,13 +251,14 @@ body{
     margin-left: 0px;
     display: flex;
     flex-direction: column;
+    
 }
 
 
 .project-title{
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Space Mono", monospace;
-    font-weight: 400;
+    font-weight: 800;
     font-style: bold;
     color: #fff;
     padding-left:50px; 
@@ -264,20 +266,35 @@ body{
 }
 
 .project-description{
-    font-size: 24px;
+    font-size: 16px;
     font-family: "Space Mono", monospace;
     font-weight: 400;
-    font-style: bold;
+    font-style: normal;
     color: #fff;
     padding-left:50px; 
-    margin-bottom: 5px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    
+}
+
+ul {
+    padding-left: 100px;
+}
+
+li {
+    color: #fff;
+     font-size: 16px;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 .language-container{
     display: flex; /* Makes the container a flex container */
     align-items: center;
     height: 60px;/* Center the navbar content horizontally */
-    padding: 0 50px;
+    padding: 0 0px;
     gap: 18px;
     width: fit-content;
     margin: 0 auto;
@@ -290,7 +307,7 @@ body{
 }
 
 .language{
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
